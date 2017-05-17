@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cetv_DesenvolvimentoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cmsContentXml">
+    <Key>
+      <PropertyRef Name="nodeId" />
+    </Key>
+    <Property Name="nodeId" Type="int" Nullable="false" />
+    <Property Name="xml" Type="ntext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="noticiaCanalEnergiaHistorico">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idNoticiaCanalEnergia" Type="int" />
+    <Property Name="data" Type="datetime" />
+    <Property Name="canal" Type="varchar" MaxLength="100" />
+    <Property Name="titulo" Type="varchar" MaxLength="255" />
+    <Property Name="conteudo" Type="varchar" MaxLength="500" />
+    <Property Name="urlImagem" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="NoticiaTVCorporativaHistorico">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nodeId" Type="int" />
+    <Property Name="data" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SlidersTVCorporativaHistorico">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nodeId" Type="int" />
+    <Property Name="data" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tvQueirozGalvaoConteudo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tvQueirozGalvaoConteudoTipoId" Type="int" />
+    <Property Name="ordem" Type="int" />
+    <Property Name="dataInicial" Type="datetime" />
+    <Property Name="dataFinal" Type="datetime" />
+    <Property Name="canal" Type="varchar" MaxLength="100" />
+    <Property Name="titulo" Type="varchar" MaxLength="100" />
+    <Property Name="conteudo" Type="varchar" MaxLength="500" />
+    <Property Name="urlImagem" Type="varchar" MaxLength="2000" />
+    <Property Name="urlVideo" Type="varchar" MaxLength="2000" />
+    <Property Name="tempoExibicao" Type="int" />
+    <Property Name="flExibido" Type="bit" />
+  </EntityType>
+  <EntityType Name="tvQueirozGalvaoConteudoSlider">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tvQueirozGalvaoConteudoId" Type="int" Nullable="false" />
+    <Property Name="dataInicial" Type="datetime" />
+    <Property Name="dataFinal" Type="datetime" />
+    <Property Name="canal" Type="varchar" MaxLength="1000" />
+    <Property Name="titulo" Type="varchar" MaxLength="100" />
+    <Property Name="urlImagem" Type="varchar" MaxLength="5000" />
+    <Property Name="tempoExibicao" Type="int" />
+    <Property Name="subtitulo" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tvQueirozGalvaoConteudoTipo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="tipo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="descricao" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="umbracoNode">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="trashed" Type="bit" Nullable="false" />
+    <Property Name="parentID" Type="int" Nullable="false" />
+    <Property Name="nodeUser" Type="int" />
+    <Property Name="level" Type="int" Nullable="false" />
+    <Property Name="path" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="sortOrder" Type="int" Nullable="false" />
+    <Property Name="uniqueID" Type="uniqueidentifier" />
+    <Property Name="text" Type="nvarchar" MaxLength="255" />
+    <Property Name="nodeObjectType" Type="uniqueidentifier" />
+    <Property Name="createDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VideosTvCorporativaHistorico">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nodeId" Type="int" />
+    <Property Name="data" Type="datetime" />
+  </EntityType>
+  <Association Name="FK__NoticiaTV__nodeI__5CA1C101">
+    <End Role="cmsContentXml" Type="Self.cmsContentXml" Multiplicity="0..1" />
+    <End Role="NoticiaTVCorporativaHistorico" Type="Self.NoticiaTVCorporativaHistorico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cmsContentXml">
+        <PropertyRef Name="nodeId" />
+      </Principal>
+      <Dependent Role="NoticiaTVCorporativaHistorico">
+        <PropertyRef Name="nodeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SlidersTV__nodeI__57DD0BE4">
+    <End Role="cmsContentXml" Type="Self.cmsContentXml" Multiplicity="0..1" />
+    <End Role="SlidersTVCorporativaHistorico" Type="Self.SlidersTVCorporativaHistorico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cmsContentXml">
+        <PropertyRef Name="nodeId" />
+      </Principal>
+      <Dependent Role="SlidersTVCorporativaHistorico">
+        <PropertyRef Name="nodeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tvQueiroz__tvQue__30C33EC3">
+    <End Role="tvQueirozGalvaoConteudo" Type="Self.tvQueirozGalvaoConteudo" Multiplicity="1" />
+    <End Role="tvQueirozGalvaoConteudoSlider" Type="Self.tvQueirozGalvaoConteudoSlider" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tvQueirozGalvaoConteudo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tvQueirozGalvaoConteudoSlider">
+        <PropertyRef Name="tvQueirozGalvaoConteudoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tvQueirozGalvaoConteudoTipo1">
+    <End Role="tvQueirozGalvaoConteudoTipo" Type="Self.tvQueirozGalvaoConteudoTipo" Multiplicity="0..1" />
+    <End Role="tvQueirozGalvaoConteudo" Type="Self.tvQueirozGalvaoConteudo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tvQueirozGalvaoConteudoTipo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tvQueirozGalvaoConteudo">
+        <PropertyRef Name="tvQueirozGalvaoConteudoTipoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VideosTvC__nodeI__531856C7">
+    <End Role="cmsContentXml" Type="Self.cmsContentXml" Multiplicity="0..1" />
+    <End Role="VideosTvCorporativaHistorico" Type="Self.VideosTvCorporativaHistorico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cmsContentXml">
+        <PropertyRef Name="nodeId" />
+      </Principal>
+      <Dependent Role="VideosTvCorporativaHistorico">
+        <PropertyRef Name="nodeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_umbracoNode_umbracoNode_id">
+    <End Role="umbracoNode" Type="Self.umbracoNode" Multiplicity="1" />
+    <End Role="umbracoNode1" Type="Self.umbracoNode" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="umbracoNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="umbracoNode1">
+        <PropertyRef Name="parentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="pr_atualizaSemaforo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="status" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="pr_deletaTabelaIntegracao" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="pr_insereHistoricoExibicaoNoticiaTvCorporativa" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nodeId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="pr_insereHistoricoExibicaoSliders" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nodeId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="pr_insereHistoricoExibicaoVideos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nodeId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="pr_insereHistoricoNoticiaCanalEnergia" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idNoticiaCanalEnergia" Type="int" Mode="In" />
+    <Parameter Name="canal" Type="varchar" Mode="In" />
+    <Parameter Name="titulo" Type="varchar" Mode="In" />
+    <Parameter Name="conteudo" Type="varchar" Mode="In" />
+    <Parameter Name="urlImagem" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="pr_insereItemFila" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tvQueirozGalvaoConteudoTipoId" Type="int" Mode="In" />
+    <Parameter Name="ordem" Type="int" Mode="In" />
+    <Parameter Name="dataInicial" Type="datetime" Mode="In" />
+    <Parameter Name="dataFinal" Type="datetime" Mode="In" />
+    <Parameter Name="canal" Type="varchar" Mode="In" />
+    <Parameter Name="titulo" Type="varchar" Mode="In" />
+    <Parameter Name="conteudo" Type="varchar" Mode="In" />
+    <Parameter Name="urlImagem" Type="varchar" Mode="In" />
+    <Parameter Name="urlVideo" Type="varchar" Mode="In" />
+    <Parameter Name="tempoExibicao" Type="int" Mode="In" />
+    <Parameter Name="flExibido" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="pr_insereSliderFila" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="queirozGalvaoConteudoId" Type="int" Mode="In" />
+    <Parameter Name="dataInicial" Type="datetime" Mode="In" />
+    <Parameter Name="dataFinal" Type="datetime" Mode="In" />
+    <Parameter Name="canal" Type="varchar" Mode="In" />
+    <Parameter Name="titulo" Type="varchar" Mode="In" />
+    <Parameter Name="urlImagem" Type="varchar" Mode="In" />
+    <Parameter Name="tempoExibicao" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="cetv_DesenvolvimentoModelStoreContainer">
+    <EntitySet Name="cmsContentXml" EntityType="Self.cmsContentXml" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="noticiaCanalEnergiaHistorico" EntityType="Self.noticiaCanalEnergiaHistorico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NoticiaTVCorporativaHistorico" EntityType="Self.NoticiaTVCorporativaHistorico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SlidersTVCorporativaHistorico" EntityType="Self.SlidersTVCorporativaHistorico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tvQueirozGalvaoConteudo" EntityType="Self.tvQueirozGalvaoConteudo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tvQueirozGalvaoConteudoSlider" EntityType="Self.tvQueirozGalvaoConteudoSlider" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tvQueirozGalvaoConteudoTipo" EntityType="Self.tvQueirozGalvaoConteudoTipo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="umbracoNode" EntityType="Self.umbracoNode" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VideosTvCorporativaHistorico" EntityType="Self.VideosTvCorporativaHistorico" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__NoticiaTV__nodeI__5CA1C101" Association="Self.FK__NoticiaTV__nodeI__5CA1C101">
+      <End Role="cmsContentXml" EntitySet="cmsContentXml" />
+      <End Role="NoticiaTVCorporativaHistorico" EntitySet="NoticiaTVCorporativaHistorico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SlidersTV__nodeI__57DD0BE4" Association="Self.FK__SlidersTV__nodeI__57DD0BE4">
+      <End Role="cmsContentXml" EntitySet="cmsContentXml" />
+      <End Role="SlidersTVCorporativaHistorico" EntitySet="SlidersTVCorporativaHistorico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tvQueiroz__tvQue__30C33EC3" Association="Self.FK__tvQueiroz__tvQue__30C33EC3">
+      <End Role="tvQueirozGalvaoConteudo" EntitySet="tvQueirozGalvaoConteudo" />
+      <End Role="tvQueirozGalvaoConteudoSlider" EntitySet="tvQueirozGalvaoConteudoSlider" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tvQueirozGalvaoConteudoTipo1" Association="Self.FK__tvQueirozGalvaoConteudoTipo1">
+      <End Role="tvQueirozGalvaoConteudoTipo" EntitySet="tvQueirozGalvaoConteudoTipo" />
+      <End Role="tvQueirozGalvaoConteudo" EntitySet="tvQueirozGalvaoConteudo" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VideosTvC__nodeI__531856C7" Association="Self.FK__VideosTvC__nodeI__531856C7">
+      <End Role="cmsContentXml" EntitySet="cmsContentXml" />
+      <End Role="VideosTvCorporativaHistorico" EntitySet="VideosTvCorporativaHistorico" />
+    </AssociationSet>
+    <AssociationSet Name="FK_umbracoNode_umbracoNode_id" Association="Self.FK_umbracoNode_umbracoNode_id">
+      <End Role="umbracoNode" EntitySet="umbracoNode" />
+      <End Role="umbracoNode1" EntitySet="umbracoNode" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

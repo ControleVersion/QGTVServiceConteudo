@@ -1,0 +1,156 @@
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csprojResolveAssemblyReference.cache
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe.config
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.pdb
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.dll
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.xml
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.exe
+c:\users\gilberto\documents\visual studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.pdb
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Owin.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.xml
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.xml
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.xml
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gilberto\Documents\Visual Studio 2013\Projects\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe.config
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.exe
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.pdb
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.pdb
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Owin.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.dll
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.xml
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csprojResolveAssemblyReference.cache
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.ProjectInstaller.resources
+D:\Projetos\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csproj.GenerateResource.Cache
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe.config
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.exe
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.pdb
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.pdb
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Owin.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.dll
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.xml
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csprojResolveAssemblyReference.cache
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.ProjectInstaller.resources
+D:\Projetos\Softwares\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csproj.GenerateResource.Cache
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe.config
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.exe
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.pdb
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.pdb
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Owin.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.dll
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.xml
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csprojResolveAssemblyReference.cache
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.ProjectInstaller.resources
+D:\workspace\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csproj.GenerateResource.Cache
+D:\workspace\ProjetosQGTV\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe.config
+D:\workspace\ProjetosQGTV\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.exe
+D:\workspace\ProjetosQGTV\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.pdb
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe.config
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.exe
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.pdb
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csprojResolveAssemblyReference.cache
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.ProjectInstaller.resources
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.csproj.GenerateResource.Cache
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.pdb
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Owin.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.dll
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\Newtonsoft.Json.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Net.Http.Formatting.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.xml
+D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.xml

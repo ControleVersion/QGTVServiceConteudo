@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cetv_DesenvolvimentoModelStoreContainer" CdmEntityContainer="cetv_DesenvolvimentoEntities">
+    <EntitySetMapping Name="tvQueirozGalvaoConteudo">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.tvQueirozGalvaoConteudo">
+        <MappingFragment StoreEntitySet="tvQueirozGalvaoConteudo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tvQueirozGalvaoConteudoTipoId" ColumnName="tvQueirozGalvaoConteudoTipoId" />
+          <ScalarProperty Name="ordem" ColumnName="ordem" />
+          <ScalarProperty Name="dataInicial" ColumnName="dataInicial" />
+          <ScalarProperty Name="dataFinal" ColumnName="dataFinal" />
+          <ScalarProperty Name="canal" ColumnName="canal" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="conteudo" ColumnName="conteudo" />
+          <ScalarProperty Name="urlImagem" ColumnName="urlImagem" />
+          <ScalarProperty Name="urlVideo" ColumnName="urlVideo" />
+          <ScalarProperty Name="tempoExibicao" ColumnName="tempoExibicao" />
+          <ScalarProperty Name="flExibido" ColumnName="flExibido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tvQueirozGalvaoConteudoSlider">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.tvQueirozGalvaoConteudoSlider">
+        <MappingFragment StoreEntitySet="tvQueirozGalvaoConteudoSlider">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tvQueirozGalvaoConteudoId" ColumnName="tvQueirozGalvaoConteudoId" />
+          <ScalarProperty Name="dataInicial" ColumnName="dataInicial" />
+          <ScalarProperty Name="dataFinal" ColumnName="dataFinal" />
+          <ScalarProperty Name="canal" ColumnName="canal" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="urlImagem" ColumnName="urlImagem" />
+          <ScalarProperty Name="tempoExibicao" ColumnName="tempoExibicao" />
+          <ScalarProperty Name="subtitulo" ColumnName="subtitulo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tvQueirozGalvaoConteudoTipo">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.tvQueirozGalvaoConteudoTipo">
+        <MappingFragment StoreEntitySet="tvQueirozGalvaoConteudoTipo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_deletaTabelaIntegracao" FunctionName="cetv_DesenvolvimentoModel.Store.pr_deletaTabelaIntegracao" />
+    <FunctionImportMapping FunctionImportName="pr_insereItemFila" FunctionName="cetv_DesenvolvimentoModel.Store.pr_insereItemFila">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="cetv_DesenvolvimentoModel.pr_insereItemFila_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_insereSliderFila" FunctionName="cetv_DesenvolvimentoModel.Store.pr_insereSliderFila" />
+    <EntitySetMapping Name="cmsContentXml">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.cmsContentXml">
+        <MappingFragment StoreEntitySet="cmsContentXml">
+          <ScalarProperty Name="xml" ColumnName="xml" />
+          <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="umbracoNode">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.umbracoNode">
+        <MappingFragment StoreEntitySet="umbracoNode">
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+          <ScalarProperty Name="nodeObjectType" ColumnName="nodeObjectType" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="uniqueID" ColumnName="uniqueID" />
+          <ScalarProperty Name="sortOrder" ColumnName="sortOrder" />
+          <ScalarProperty Name="path" ColumnName="path" />
+          <ScalarProperty Name="level" ColumnName="level" />
+          <ScalarProperty Name="nodeUser" ColumnName="nodeUser" />
+          <ScalarProperty Name="parentID" ColumnName="parentID" />
+          <ScalarProperty Name="trashed" ColumnName="trashed" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_atualizaSemaforo" FunctionName="cetv_DesenvolvimentoModel.Store.pr_atualizaSemaforo" />
+    <EntitySetMapping Name="noticiaCanalEnergiaHistorico">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.noticiaCanalEnergiaHistorico">
+        <MappingFragment StoreEntitySet="noticiaCanalEnergiaHistorico">
+          <ScalarProperty Name="urlImagem" ColumnName="urlImagem" />
+          <ScalarProperty Name="conteudo" ColumnName="conteudo" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="canal" ColumnName="canal" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="idNoticiaCanalEnergia" ColumnName="idNoticiaCanalEnergia" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NoticiaTVCorporativaHistorico">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.NoticiaTVCorporativaHistorico">
+        <MappingFragment StoreEntitySet="NoticiaTVCorporativaHistorico">
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SlidersTVCorporativaHistorico">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.SlidersTVCorporativaHistorico">
+        <MappingFragment StoreEntitySet="SlidersTVCorporativaHistorico">
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VideosTvCorporativaHistorico">
+      <EntityTypeMapping TypeName="cetv_DesenvolvimentoModel.VideosTvCorporativaHistorico">
+        <MappingFragment StoreEntitySet="VideosTvCorporativaHistorico">
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_insereHistoricoExibicaoNoticiaTvCorporativa" FunctionName="cetv_DesenvolvimentoModel.Store.pr_insereHistoricoExibicaoNoticiaTvCorporativa" />
+    <FunctionImportMapping FunctionImportName="pr_insereHistoricoExibicaoSliders" FunctionName="cetv_DesenvolvimentoModel.Store.pr_insereHistoricoExibicaoSliders" />
+    <FunctionImportMapping FunctionImportName="pr_insereHistoricoExibicaoVideos" FunctionName="cetv_DesenvolvimentoModel.Store.pr_insereHistoricoExibicaoVideos" />
+    <FunctionImportMapping FunctionImportName="pr_insereHistoricoNoticiaCanalEnergia" FunctionName="cetv_DesenvolvimentoModel.Store.pr_insereHistoricoNoticiaCanalEnergia" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2f3682c06fec4f05abe55b86dbbab212" Name="Diagram1">
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.tvQueirozGalvaoConteudo" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.tvQueirozGalvaoConteudoSlider" Width="2.75" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.tvQueirozGalvaoConteudoTipo" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="cetv_DesenvolvimentoModel.FK__tvQueiroz__tvQue__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="cetv_DesenvolvimentoModel.FK__tvQueirozGalvaoConteudoTipo1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.cmsContentXml" Width="1.5" PointX="2.75" PointY="5.75" />
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.umbracoNode" Width="1.5" PointX="0.75" PointY="5.75" />
+        <AssociationConnector Association="cetv_DesenvolvimentoModel.FK_umbracoNode_umbracoNode_id" />
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.noticiaCanalEnergiaHistorico" Width="1.5" PointX="7.375" PointY="5.75" />
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.NoticiaTVCorporativaHistorico" Width="1.5" PointX="5" PointY="6.25" />
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.SlidersTVCorporativaHistorico" Width="1.5" PointX="5" PointY="11.375" />
+        <EntityTypeShape EntityType="cetv_DesenvolvimentoModel.VideosTvCorporativaHistorico" Width="1.5" PointX="5" PointY="8.875" />
+        <AssociationConnector Association="cetv_DesenvolvimentoModel.FK__NoticiaTV__nodeI__5CA1C101" />
+        <AssociationConnector Association="cetv_DesenvolvimentoModel.FK__SlidersTV__nodeI__57DD0BE4" />
+        <AssociationConnector Association="cetv_DesenvolvimentoModel.FK__VideosTvC__nodeI__531856C7" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
