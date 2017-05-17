@@ -20,6 +20,7 @@ namespace ServicoTVCorporativa
             StreamWriter registro = new StreamWriter(nomeArquivo, true);
             registro.WriteLine(texto);
             registro.Close();
+            //teste de Upload para o GitHub
         }
 
         public static void Add(string texto, string caminhoArquivo)

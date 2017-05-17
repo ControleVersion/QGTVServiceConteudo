@@ -154,3 +154,6 @@ D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporat
 D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.Owin.xml
 D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.SelfHost.xml
 D:\workspace\ProjetosQGTV\Desenvolvimento\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\TECNOLOGIA\Source\Repos\QGTVServiceConteudo\ServicoTVCorporativa\ServicoTVCorporativa\bin\Debug\ServicoTVCorporativa.exe.config
+C:\Users\TECNOLOGIA\Source\Repos\QGTVServiceConteudo\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.exe
+C:\Users\TECNOLOGIA\Source\Repos\QGTVServiceConteudo\ServicoTVCorporativa\ServicoTVCorporativa\obj\Debug\ServicoTVCorporativa.pdb
